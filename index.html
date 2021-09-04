@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styling.css" />
+    <script src="sudhakarintro.js"></script>
+    <script
+      type="text/javascript"
+      src="http://code.jquery.com/jquery-latest.js"
+    ></script>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+      <div class="result" id="resulthere">
+        <h1 id="heading1"></h1>
+      </div>
+      <div class="form-select-lg" id="forms">
+    <form>
+      <label for="fname">First Number:</label><br />
+      <input type="text" id="fname" name="fname" /><br />
+      <label for="lname">Second Number:</label><br />
+      <input type="text" id="lname" name="lname" /><br /><br />
+      <button type="button" id="operation" value="add" class="btn btn-success" onclick="addfun()">
+        Add
+      </button>
+      <button type="button" id="operation" value="sub" class="btn btn-success" onclick="subfun()">
+        subtract
+      </button>
+      <button type="button" id="operation" value="mul" class="btn btn-success"  onclick="mulfun()">
+        Multiply
+      </button>
+      <button type="button" id="operation" value="divide" class="btn btn-success"  onclick="divfun()">
+        divide
+      </button>
+      
+      <!-- <input type="button" value="Quadratic equation" class="btn btn-success" onclick="window.open('quadratic.html')" /> -->
+    </div>
+    </form>
+    <div class="btn-group" role="group" aria-label="basic-outlined">
+      <button type="button" class="btn btn-outline-secondary" onclick="clrfun()">clear all</button>
+      
+      
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

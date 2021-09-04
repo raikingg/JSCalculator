@@ -1,0 +1,25 @@
+body {
+  background-color: grey;
+}
+.result {
+  border-color: chocolate;
+  border-style: dotted;
+  margin-left: 34%;
+  size: 40%;
+  width: 40%;
+  text-align: center;
+  height: 15%;
+}
+.btn-group {
+  margin-left: 50%;
+  margin-right: 30%;
+}
+#forms {
+  margin-left: 40%;
+  margin-top: 10%;
+}
+h1 {
+  text-align: center;
+  font-size: xx-large;
+  color: green;
+}
